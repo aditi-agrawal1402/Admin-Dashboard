@@ -30,6 +30,10 @@ p{
 
 .dashboard-title {
     font-size: 30px;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 40px;
+    padding: 10px;
 }
 
 .dashboard-title img{
@@ -43,6 +47,10 @@ p{
 
 .sidebar div ul li {
     list-style-type: none;
+    margin: 20px 0px;
+    padding: auto 0;
+    display: flex;
+    gap: 10px;
 }
 
 .header{
