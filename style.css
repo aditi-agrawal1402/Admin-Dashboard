@@ -59,14 +59,27 @@ p{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
+    gap: 10px;
     padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    align-items: center;
+}
+
+img[src="kitty.png"]{
+    height: 45px;
+    width: 45px;
+}
+
+.search {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
 }
 
 input {
     margin-left: 25px;
-    width: 50%;
+    width: 70%;
     border-radius: 20px;
     height: 30px;
     background-color: rgb(221, 221, 221);
@@ -75,14 +88,26 @@ input {
 
 .header .logo {
     display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.header .logo div {
+    font-size: 20px;
+    font-weight: 600px;
 }
 
 .header-profileName {
     display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 40px;
 }
 
 .header-profileName div p {
     margin: 5px;
+    font-size: 20px;
+    font-weight: 700;
 }
 
 button {
@@ -93,6 +118,7 @@ button {
     width: 75px;
     color: white;
     margin-left: 10px;
+    font-size: 15px;
 }
 
 .main {
